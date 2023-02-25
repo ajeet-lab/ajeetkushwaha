@@ -7,7 +7,7 @@ body{
 
 :root{
 --color-primary: #ff014f;
---color-primary: #ff014f;
+/*--color-primary: #7e22ce;*/
 --color-secondary: #f4f5f6;
 --color-tertiary: #0d1013;
 --color-dark: #1a1d23;
@@ -100,7 +100,6 @@ input[type=number]:focus,
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 transparent !important;
 }
-
 
 
 .shadow1{
@@ -495,8 +494,6 @@ margin-bottom: .7rem ;
 
 }
 
-
-
 /* ========================= Start Contact =============================== */
 
 #contact .contact_form .form-label{
@@ -536,24 +533,16 @@ margin-bottom: .7rem ;
     color: white !important;
 }
 
-
-
 /* ========================= End Contact =============================== */
-
-
-
-
 
 /* ========================= Media Query =============================== */
 @media screen and (max-width: 414px) {   
     .hero-left-head{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     
     .right-hero-img{
         width:100%;height:100%;position: relative;
     }
 
-
 }
-
